@@ -7,22 +7,22 @@
 
 
 <!-- PROJECT SHIELDS -->
+<p align="center">
 [![Contributors][contributors-shield]][contributors-url]
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 [![LinkedIn][linkedin-shield]][linkedin-url]
+</p>
 
 
 <!-- PROJECT LOGO -->
-<br />
 <p align="center">
     <a href="https://github.com/othneildrew/Best-README-Template">
         <img src="images/logo.jpg" alt="Logo" height="256">
     </a>
-    <h3 align="center">Best-README-Template</h3>
-    <p align="center">Parrot</p>
+    <h3 align="center">Parrot</h3>
 </p>
 
 
@@ -133,7 +133,7 @@ Project Link: [https://github.com/rambodrahmani/parrot](https://github.com/rambo
 [issues-shield]: https://img.shields.io/github/issues/rambodrahmani/parrot.svg?style=flat-square
 [issues-url]: https://github.com/rambodrahmani/parrot/issues
 [license-shield]: https://img.shields.io/github/license/rambodrahmani/parrot.svg?style=flat-square
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
+[license-url]: https://github.com/rambodrahmani/parrot/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
 [linkedin-url]: https://www.linkedin.com/in/rambodrahmani/
 [product-screenshot]: images/screenshot.png
