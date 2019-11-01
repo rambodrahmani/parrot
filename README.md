@@ -1,2 +1,2 @@
 # Parrot
-![Logo](/img/parrot_logo)
+![Logo](/img/parrot_logo.jpg)
