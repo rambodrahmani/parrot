@@ -18,10 +18,8 @@
 <p align="center">
     <a href="https://github.com/rambodrahmani/parrot/commits/develop">
     <img src="https://img.shields.io/github/last-commit/rambodrahmani/parrot.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub last commit">
-
     <a href="https://github.com/rambodrahmani/parrot/issues">
     <img src="https://img.shields.io/github/issues-raw/rambodrahmani/parrot.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub issues">
-
     <a href="https://github.com/rambodrahmani/parrot/pulls">
     <img src="https://img.shields.io/github/issues-pr-raw/rambodrahmani/parrot.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub pull requests">
 </p>
