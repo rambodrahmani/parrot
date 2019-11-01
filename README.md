@@ -1,2 +1,2 @@
 # Parrot
-![Logo](/img/parrot_logo.jpg | height = 48)
+![Logo](/img/parrot_logo.jpg | width = 48)
