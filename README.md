@@ -16,28 +16,33 @@
 
 
 <!-- PROJECT SHIELDS -->
-[![Contributors][contributors-shield]][contributors-url]
-[![Forks][forks-shield]][forks-url]
-[![Stargazers][stars-shield]][stars-url]
-[![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][linkedin-url]
+<p align="center">
+    <a href="https://github.com/rambodrahmani/parrot/commits/develop">
+        <img src="https://img.shields.io/github/last-commit/rambodrahmani/parrot.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub last commit">
+    </a>
 
+    <a href="https://github.com/rambodrahmani/parrot/issues">
+    <img src="https://img.shields.io/github/issues-raw/rambodrahmani/parrot.svg?style=flat-square&logo=github&logoColor=white"
+         alt="GitHub issues">
+    </a>
 
-<!-- TABLE OF CONTENTS -->
-## Table of Contents
-* [About the Project](#about-the-project)
-  * [Built With](#built-with)
-* [Getting Started](#getting-started)
-  * [Prerequisites](#prerequisites)
-  * [Installation](#installation)
-* [Usage](#usage)
-* [Roadmap](#roadmap)
-* [Contributing](#contributing)
-* [License](#license)
-* [Contact](#contact)
-* [Acknowledgements](#acknowledgements)
+    <a href="https://github.com/rambodrahmani/parrot/pulls">
+        <img src="https://img.shields.io/github/issues-pr-raw/rambodrahmani/parrot.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub pull requests">
+    </a>
+</p>
 
+<p align="center">
+    <a href="#about-the-project">About</a> •
+    <a href="#getting-started">Getting Started</a> •
+    <a href="#prerequisites">Prerequisites</a> •
+    <a href="#installation">Installation</a> •
+    <a href="#usage">Usage</a> •
+    <a href="#roadmap">Roadmap</a> •
+    <a href="#contributing">Contributing</a> •
+    <a href="#license">License</a> •
+    <a href="#contact">Contact</a> •
+    <a href="#acknowledgements">Acknowledgements</a>    
+</p>
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
@@ -118,21 +123,4 @@ Project Link: [https://github.com/rambodrahmani/parrot](https://github.com/rambo
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
 * [Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-
-
-<!-- MARKDOWN LINKS & IMAGES -->
-<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
-[contributors-shield]: https://img.shields.io/github/contributors/rambodrahmani/parrot.svg?style=flat-square
-[contributors-url]: https://github.com/rambodrahmani/parrot/graphs/contributors
-[forks-shield]: https://img.shields.io/github/forks/rambodrahmani/parrot.svg?style=flat-square
-[forks-url]: https://github.com/rambodrahmani/parrot/network/members
-[stars-shield]: https://img.shields.io/github/stars/rambodrahmani/parrot.svg?style=flat-square
-[stars-url]: https://github.com/rambodrahmani/parrot/stargazers
-[issues-shield]: https://img.shields.io/github/issues/rambodrahmani/parrot.svg?style=flat-square
-[issues-url]: https://github.com/rambodrahmani/parrot/issues
-[license-shield]: https://img.shields.io/github/license/rambodrahmani/parrot.svg?style=flat-square
-[license-url]: https://github.com/rambodrahmani/parrot/blob/master/LICENSE.txt
-[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://www.linkedin.com/in/rambodrahmani/
-[product-screenshot]: images/screenshot.png
 
