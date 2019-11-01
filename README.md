@@ -106,7 +106,7 @@ const API_KEY = 'ENTER YOUR API';
 ## Usage
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+_For more examples, please refer to the [Wiki](https://github.com/rambodrahmani/parrot/wiki)_
 
 
 <!-- ROADMAP -->
@@ -133,6 +133,7 @@ Distributed under the GNU GPL License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 Rambod Rahmani - [@rambodrahmani](https://www.linkedin.com/in/rambodrahmani) - rambodrahmani@autistici.org
+
 Project Link: [https://github.com/rambodrahmani/parrot](https://github.com/rambodrahmani/parrot)
 
 
