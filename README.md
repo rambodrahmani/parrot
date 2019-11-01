@@ -1,4 +1,4 @@
 # Parrot
 <p align="center">
-    <img width="48" src="/img/parrot_logo.jpg">
+    <img height="256" src="/img/parrot_logo.jpg">
 </p>
