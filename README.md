@@ -18,6 +18,7 @@
 
 <!-- PROJECT SHIELDS -->
 <p align="center">
+    <a href="#">
     <img src="https://img.shields.io/github/languages/top/rambodrahmani/parrot.svg?logo=github" alt="Github Top Languages">
     <a href="https://github.com/rambodrahmani/parrot/commits/develop">
     <img src="https://img.shields.io/github/last-commit/rambodrahmani/parrot.svg?logo=github" alt="GitHub last commit">
@@ -26,7 +27,7 @@
     <a href="https://github.com/rambodrahmani/parrot/pulls">
     <img src="https://img.shields.io/github/issues-pr-raw/rambodrahmani/parrot.svg?logo=github" alt="GitHub pull requests">
     <a href="https://gitter.im/rr-parrot/devops">
-    <imgsrc="https://img.shields.io/gitter/room/rambodrahmani/parrot.svg?logo=gitter" alt="Chat on Gitter">
+    <img src="https://img.shields.io/gitter/room/rambodrahmani/parrot.svg?logo=gitter" alt="Chat on Gitter">
 </p>
 
 
