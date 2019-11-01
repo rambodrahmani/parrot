@@ -11,8 +11,8 @@
 [![Forks][forks-shield]][forks-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![GPL License][license-shield]][license-url]
-[![LinkedIn][linkedin-shield]][https://www.linkedin.com/in/rambodrahmani/]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
 
 
 <!-- PROJECT LOGO -->
@@ -166,6 +166,6 @@ Project Link: [https://github.com/rambodrahmani/parrot](https://github.com/rambo
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=flat-square
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
 [linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=flat-square&logo=linkedin&colorB=555
-[linkedin-url]: https://linkedin.com/in/othneildrew
+[linkedin-url]: https://www.linkedin.com/in/rambodrahmani/
 [product-screenshot]: images/screenshot.png
 
