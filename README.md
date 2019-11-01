@@ -24,8 +24,8 @@
     <img src="https://img.shields.io/github/issues-raw/rambodrahmani/parrot.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub issues">
     <a href="https://github.com/rambodrahmani/parrot/pulls">
     <img src="https://img.shields.io/github/issues-pr-raw/rambodrahmani/parrot.svg?style=flat-square&logo=github&logoColor=white" alt="GitHub pull requests">
-    <a href="https://img.shields.io/gitter/room/rambodrahmani/parrot">
-    <img src="https://img.shields.io/gitter/room/rambodrahmani/parrot.svg?style=flag-square" alt="Chat on Gitter"
+    <a href="https://gitter.im/rr-parrot/devops">
+    <img src="https://img.shields.io/gitter/room/rambodrahmani/parrot.svg?style=flag-square&logo=github&logoColor=white" alt="Chat on Gitter">
 </p>
 
 
