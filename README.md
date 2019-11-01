@@ -20,6 +20,8 @@
 <p align="center">
     <a href="#">
     <img src="https://img.shields.io/github/languages/top/rambodrahmani/parrot.svg?logo=github" alt="Github Top Languages">
+    <a href="#">
+    <img src="https://img.shields.io/github/downloads/rambodrahmani/parrot/total.svg?logo=github" alt="Github Donwloads">
     <a href="https://github.com/rambodrahmani/parrot/commits/develop">
     <img src="https://img.shields.io/github/last-commit/rambodrahmani/parrot.svg?logo=github" alt="GitHub last commit">
     <a href="https://github.com/rambodrahmani/parrot/issues">
