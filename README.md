@@ -12,7 +12,7 @@
     <a href="https://github.com/othneildrew/Best-README-Template">
         <img src="images/logo.jpg" alt="Logo" height="256">
     </a>
-    <h2 align="center">Parrot</h3>
+    <h1 align="center">Parrot</h3>
 </p>
 
 
