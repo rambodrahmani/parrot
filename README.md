@@ -9,7 +9,7 @@
 
 <!-- PROJECT LOGO -->
 <p align="center">
-    <a href="https://github.com/othneildrew/Best-README-Template">
+    <a href="https://github.com/rambodrahmani/parrot">
         <img src="images/logo.jpg" alt="Logo" height="256">
     </a>
     <h1 align="center">Parrot</h3>
