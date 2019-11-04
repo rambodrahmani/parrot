@@ -27,7 +27,7 @@ Download and install `Eclipse IDE for Java and DSL Developers` from
 
 The `/parrot/src/java` directory can be used as the Eclipse Workspace directory.
 
-Import all the projects.
+Import all the projects:
 ```
 File -> Import -> Existing Projects into Workspace
 ```
