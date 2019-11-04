@@ -1,7 +1,7 @@
 package com.parrot.util;
 
 /**
- * Util Class.
+ * Utilities Class.
  * 
  * @author Rambod Rahmani <rambodrahmani@autistici.org>
  * 
@@ -10,7 +10,8 @@ package com.parrot.util;
 public class Util
 {
 	/**
-	 * @return  a string containing the JVM architecture: one of '32', '64' or 'unknown'.
+	 * @return  a string containing the JVM architecture: one of '32', '64' or
+     *          'unknown'.
 	 */
 	public static String getJVMArch()
 	{
@@ -18,7 +19,8 @@ public class Util
 	}
 	
 	/**
-	 * @return  true if the running JVM is 64-bit, false otherwise: either the running JVM has 32-bit or unknown architecture.
+	 * @return  true if the running JVM is 64-bit, false otherwise: either the
+     *          running JVM has 32-bit or unknown architecture.
 	 */
 	public static boolean isJVM64Bit()
 	{
@@ -42,3 +44,4 @@ public class Util
 		}
 	}
 }
+
