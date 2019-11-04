@@ -19,11 +19,11 @@ sudo pacman -S jre8-openjdk jdk8-openjdk openjdk8-doc openjdk8-src
 
 ### Windows
 On Windows 10, the appropiate version `jre-8u231` can be downloaded from
-![Java SE Runtime Environment 8 Downloads](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html).
+[Java SE Runtime Environment 8 Downloads](https://www.oracle.com/technetwork/java/javase/downloads/jre8-downloads-2133155.html).
 
 ## Eclipse
 Download and install `Eclipse IDE for Java and DSL Developers` from
-![Eclipse IDE Oxygen 3a Packages](https://www.eclipse.org/downloads/packages/release/oxygen/3a).
+[Eclipse IDE Oxygen 3a Packages](https://www.eclipse.org/downloads/packages/release/oxygen/3a).
 
 The `/parrot/src/java` directory can be used as the Eclipse Workspace directory.
 
