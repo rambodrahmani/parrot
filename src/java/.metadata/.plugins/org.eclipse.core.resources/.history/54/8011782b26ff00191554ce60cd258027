@@ -1,0 +1,22 @@
+package com.parrot.util;
+
+/**
+ * Util Class.
+ * 
+ * @author Rambod Rahmani <rambodrahmani@autistici.org>
+ * 
+ * Created on Nov 4, 2019.
+ */
+public class Util
+{
+
+	/**
+	 * Developer harness test.
+	 * 
+	 * @param args command line arguments.
+	 */
+	public static void main(String[] args)
+	{
+		System.out.println(System.getProperty("sun.arch.data.model").indexOf("64") != -1);
+	}
+}

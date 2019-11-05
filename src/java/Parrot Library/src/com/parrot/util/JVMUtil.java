@@ -28,7 +28,7 @@ public final class JVMUtil
     {
         return System.getProperty("sun.arch.data.model");
     }
-	
+
     /**
      * @return  true if the running JVM is 64-bit, false otherwise: either the
      *          running JVM has 32-bit or unknown architecture.
@@ -37,7 +37,7 @@ public final class JVMUtil
     {
         return getJVMArch().indexOf("64") != -1;
     }
-	
+
     /**
      * Developer harness test.
      * 
