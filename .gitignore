@@ -8,4 +8,5 @@
 
 # eclipse ide folders
 .metadata/
+.settings/
 
