@@ -1,2 +1,11 @@
-# for the time being, just push everything upstream
+################################################################################
+# File: .gitignore
+#       Parrot repository .gitignore file.
+#
+# Author: Rambod Rahmani <rambodrahmani@autistici.org>
+#         Created on Nov 5, 2019.
+################################################################################
+
+# eclipse ide folders
+.metadata/
 
