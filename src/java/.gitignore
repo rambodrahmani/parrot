@@ -1,2 +1,7 @@
+# eclipse ide folders
 .metadata/
+.settings/
+
+# compiled java class fles
+.class
 
