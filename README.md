@@ -35,7 +35,7 @@
 
 <!-- TABLE OF CONTENTS -->
 <p align="center">
-    <a href="#about-the-project">About</a> •
+    <a href="#about">About</a> •
     <a href="#getting-started">Getting Started</a> •
     <a href="#contributing">Contributing</a> •
     <a href="#license">License</a> •
