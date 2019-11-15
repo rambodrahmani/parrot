@@ -40,14 +40,14 @@ public final class StringUtil
      *
      * @return  the truncated string.
      */
-    public static String truncate(final String str, final int len)
+    public static String truncate(String str, final int len)
     {
         if (isValidString(str))
         {
             str = str.substring(0, len);
         }
 
-        return value;
+        return str;
     }
 
     /**

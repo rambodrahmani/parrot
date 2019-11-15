@@ -43,8 +43,6 @@ public final class JVMUtil
         return getJVMArch().indexOf("64") != -1;
     }
 
-<<<<<<< HEAD
-=======
     /**
      * Checks if the application is running with root/admin privileges or not.
      * This solution is platform-independent: it tries to write system
@@ -97,7 +95,6 @@ public final class JVMUtil
         }
     }
 
->>>>>>> 902b82ad8db10cdae1648ea45c8c30cf67817124
     /**
      * Developer harness test.
      * 
