@@ -10,3 +10,6 @@
 .metadata/
 .settings/
 
+# compiled Java class files
+*.class
+
