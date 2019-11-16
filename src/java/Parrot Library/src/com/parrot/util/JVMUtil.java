@@ -6,7 +6,7 @@ import java.io.PrintStream;
 import java.util.prefs.Preferences;
 
 /**
- * JVM Related Utilities Class.
+ * JVM Utilities Class.
  *
  * Declared public for all other modules to use, final to prevent sub-classing
  * and improve efficiency at runtime, with a private constructor to prevent

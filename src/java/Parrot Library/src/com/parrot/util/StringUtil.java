@@ -1,7 +1,7 @@
 package com.parrot.util;
 
 /**
- * Strings Related Utilities Class.
+ * Strings Utilities Class.
  *
  * Declared public for all other modules to use, final to prevent sub-classing
  * and improve efficiency at runtime, with a private constructor to prevent
