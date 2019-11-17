@@ -27,10 +27,12 @@ public final class SystemTrayUtil
 	private static TrayIcon trayIcon = null;
 	
 	// system tray error messages queue
-	private final static ArrayBlockingQueue<String> trayErrorsQueue = new ArrayBlockingQueue<>(30);
+	private final static ArrayBlockingQueue<String> trayErrorsQueue =
+                                                   new ArrayBlockingQueue<>(30);
 	
 	// system tray error message title
-	private final static String TRAY_TITLE = LocaleResourceBundle.getString("sys_tray_err_title");
+	private final static String TRAY_TITLE =
+                           LocaleResourceBundle.getString("sys_tray_err_title");
 	
     /**
      * The private constructor will prevent the instantiation of this class
@@ -54,7 +56,9 @@ public final class SystemTrayUtil
     		final SystemTray systemTray = SystemTray.getSystemTray();
     		
     		// load Parrot logo image instance
-    		final Image parrotLogo = new ImageIcon(Globals.class.getResource("/com/parrot/globals/parrot_logo.jpg")).getImage();
+    		final Image parrotLogo = new ImageIcon(
+                Globals.class.getResource("/com/parrot/globals/parrot_logo.jpg")
+            ).getImage();
     		
     		// create the tray icon from the image
     		trayIcon = new TrayIcon(parrotLogo, TRAY_TITLE);
