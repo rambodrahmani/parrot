@@ -2,6 +2,7 @@ package com.parrot.property;
 
 /**
  * Property Interface.
+ *
  * All enumerations containing properties must implement this interface.
  * 
  * @author Rambod Rahmani <rambodrahmani@autistici.org>

@@ -13,12 +13,10 @@ import java.util.ResourceBundle;
 public class LocaleResourceBundle
 {
 	// Locale Resource Bundle name
-	private static final String LOCALE_RESOURCE_BUNDLE_NAME =
-                                          "com.parrot.nls.LocaleResourceBundle";
+	private static final String LOCALE_RESOURCE_BUNDLE_NAME = "com.parrot.nls.LocaleResourceBundle";
 	
 	// Locale Resource Bundle
-	private static final ResourceBundle LOCALE_RESOURCE_BUNDLE =
-                          ResourceBundle.getBundle(LOCALE_RESOURCE_BUNDLE_NAME);
+	private static final ResourceBundle LOCALE_RESOURCE_BUNDLE = ResourceBundle.getBundle(LOCALE_RESOURCE_BUNDLE_NAME);
 	
     /**
      * The private constructor will prevent the instantiation of this class
