@@ -34,7 +34,7 @@ public final class SystemTrayUtil
 	private final static ArrayBlockingQueue<String> queuedErrors = new ArrayBlockingQueue<>(30);
 	
 	// system tray error message title
-	private final static String TRAY_TITLE = LocaleResourceBundle.getString("sys_tray_err_title");
+	private final static String TRAY_TITLE = LocaleResourceBundle.getString("tit_sys_tray_err");
 	
     /**
      * The private constructor will prevent the instantiation of this class
