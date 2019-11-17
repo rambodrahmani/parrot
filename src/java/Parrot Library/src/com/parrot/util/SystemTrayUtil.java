@@ -27,14 +27,14 @@ import com.parrot.nls.LocaleResourceBundle;
  */
 public final class SystemTrayUtil
 {
-	// parrot library system tray icon
-	private static TrayIcon trayIcon = null;
-	
-	// queued error messages
-	private final static ArrayBlockingQueue<String> queuedErrors = new ArrayBlockingQueue<>(30);
-	
-	// system tray error message title
-	private final static String TRAY_TITLE = LocaleResourceBundle.getString("tit_sys_tray_err");
+    // parrot library system tray icon
+    private static TrayIcon trayIcon = null;
+
+    // queued error messages
+    private final static ArrayBlockingQueue<String> queuedErrors = new ArrayBlockingQueue<>(30);
+
+    // system tray error message title
+    private final static String TRAY_TITLE = LocaleResourceBundle.getString("tit_sys_tray_err");
 	
     /**
      * The private constructor will prevent the instantiation of this class
@@ -54,7 +54,7 @@ public final class SystemTrayUtil
         {
             // number of queued errors
             final int errors = queuedErrors.size();
-            
+
             // if there are queued error messages
             if (errors > 0)
             {
@@ -73,7 +73,7 @@ public final class SystemTrayUtil
             }
         }
     }
-    
+
     /**
      * Initializes the Parrot System Tray Icon if not already initialized.
      * 
@@ -84,23 +84,27 @@ public final class SystemTrayUtil
     	// check if system tray is supported and Parrot system tray icon has
     	// not already been initialized
     	if (SystemTray.isSupported() && trayIcon == null)
-    	{
-    		// get the system tray reference
+        {
+    	    // get the system tray reference
     		final SystemTray systemTray = SystemTray.getSystemTray();
-    		
+
     		// load Parrot logo image instance
     		final Image parrotLogo = new ImageIcon(
                 Globals.class.getResource("/com/parrot/globals/parrot_logo.jpg")
             ).getImage();
-    		
+
     		// create the tray icon from the image
     		trayIcon = new TrayIcon(parrotLogo, TRAY_TITLE);
     	}
-    	
+
     	// otherwise, just return the previously initialized tray icon
     	return trayIcon;
     }
 
+    /**
+     * 
+     * @param thr
+     */
     public static void reportError(final Throwable thr)
     {
         // initialize the tray icon if it already isn't

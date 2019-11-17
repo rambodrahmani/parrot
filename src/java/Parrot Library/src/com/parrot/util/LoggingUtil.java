@@ -25,7 +25,7 @@ public final class LoggingUtil
      */
     private LoggingUtil()
     {}
-    
+
     /**
      * Dumps the stack trace of the given Throwable into a String.
      *

@@ -9,6 +9,5 @@ package com.parrot.globals;
  */
 public final class Globals
 {
-
 }
 

@@ -12,3 +12,4 @@ import com.parrot.property.Property;
 public enum GlobalProperties implements Property
 {
 }
+

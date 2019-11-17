@@ -55,10 +55,10 @@ public final class JVMUtil
     {
         // retrieve root preference node for the system
         Preferences sysPrefs = Preferences.systemRoot();
-        
+
         // retrieve standard error output stream
         PrintStream errStream = System.err;
-        
+
         // synchronize to avoid problems with other threads that access System.err
         synchronized(errStream)
         {
@@ -78,7 +78,7 @@ public final class JVMUtil
                 sysPrefs.put("foo", "bar");     // SecurityException on Windows
                 sysPrefs.remove("foo");
                 sysPrefs.flush();               // BackingStoreException on Linux
-                
+
                 // no security exception thrown: I am root
                 return true;
             }
