@@ -4,6 +4,8 @@ import java.awt.Image;
 import java.awt.SystemTray;
 import java.awt.TrayIcon;
 import java.awt.TrayIcon.MessageType;
+import java.awt.event.ActionEvent;
+import java.awt.event.ActionListener;
 import java.util.concurrent.ArrayBlockingQueue;
 
 import javax.swing.ImageIcon;
@@ -44,8 +46,8 @@ public final class SystemTrayUtil
     {}
 
     /**
-     * Updates the System Tray icon tooltip based on the number of queued error
-     * messages.
+     * Updates the System Tray icon tooltip text based on the number of queued
+     * error messages.
      */
     private static void updateToolTip()
     {
@@ -95,6 +97,19 @@ public final class SystemTrayUtil
 
     		// create the tray icon from the image
     		trayIcon = new TrayIcon(parrotLogo, TRAY_TITLE);
+    		
+    		// update tooltip text
+    		updateToolTip();
+    		
+    		// add tray icon action listener 
+    		trayIcon.addActionListener(new ActionListener()
+    		{
+                @Override
+                public void actionPerformed(final ActionEvent e)
+                {
+                    
+                }
+            });
     	}
 
     	// otherwise, just return the previously initialized tray icon
