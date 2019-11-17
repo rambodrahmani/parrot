@@ -32,12 +32,12 @@ public final class URLUtil
      */
     public static String validateURL(String url)
     {
-    	if (url != null)
-    	{
-    		url = url.replace("\\", "/");
-    	}
-    	
-    	return url;
+        if (url != null)
+        {
+            url = url.replace("\\", "/");
+        }
+
+        return url;
     }
 
     /**
@@ -52,20 +52,20 @@ public final class URLUtil
     	
     	if (str != null)
     	{
-    		// correct wrong slashes
-    		String tmp = validateURL(str);
-    		
-    		// convert to lowercase
-    		tmp = tmp.toLowerCase();
-    		
-    		// check if the given string is a URL looking for protocols patterns
-    		ret = tmp.startsWith("http://") || 
-    			  tmp.startsWith("https://") ||
-    			  tmp.startsWith("ftp://") ||
-    			  tmp.startsWith("ftps://") ||
-    			  tmp.startsWith("file://");
+    	    // correct wrong slashes
+    	    String tmp = validateURL(str);
+
+    	    // convert to lowercase
+    	    tmp = tmp.toLowerCase();
+
+    	    // check if the given string is a URL looking for protocols patterns
+    	    ret = tmp.startsWith("http://") || 
+    	          tmp.startsWith("https://") ||
+    	          tmp.startsWith("ftp://") ||
+    	          tmp.startsWith("ftps://") ||
+    	          tmp.startsWith("file://");
     	}
-    	
+
     	return ret;
     }
     
@@ -85,18 +85,18 @@ public final class URLUtil
 
         try
         {
-        	if (isURL(fileName))
-        	{
-        		return new URL(fileName);
-        	}
-        	else
-        	{
-        		return new File(fileName).toURI().toURL();
-        	}
+            if (isURL(fileName))
+            {
+                return new URL(fileName);
+            }
+            else
+            {
+                return new File(fileName).toURI().toURL();
+            }
         }
         catch (final MalformedURLException e)
         {
-        	return null;
+            return null;
         }
     }
     

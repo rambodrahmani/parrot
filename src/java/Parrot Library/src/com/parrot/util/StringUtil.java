@@ -24,7 +24,6 @@ public final class StringUtil
      * Checks if the given string a valid: it is not null and with a length > 0.
      *
      * @param  str  the string value to be checked;
-     *
      * @return  true if the given string is valid.
      */
     public static boolean isValidString(final String str)
@@ -37,7 +36,6 @@ public final class StringUtil
      *
      * @param  str  the string value to be truncated;
      * @param  len  the length to be used when creating substring;
-     *
      * @return  the truncated string.
      */
     public static String truncate(String str, final int len)
