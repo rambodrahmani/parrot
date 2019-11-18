@@ -25,7 +25,7 @@ import com.parrot.nls.LocaleResourceBundle;
  * 
  * @author Rambod Rahmani <rambodrahmani@autistici.org>
  * 
- * Created on Nov 16, 2019.
+ * Created on November 16, 2019.
  */
 public final class SystemTrayUtil
 {
@@ -107,7 +107,6 @@ public final class SystemTrayUtil
                 @Override
                 public void actionPerformed(final ActionEvent e)
                 {
-                    
                 }
             });
     	}

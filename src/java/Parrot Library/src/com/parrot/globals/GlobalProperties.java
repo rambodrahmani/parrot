@@ -7,9 +7,34 @@ import com.parrot.property.Property;
  * 
  * @author Rambod Rahmani <rambodrahmani@autistici.org>
  * 
- * Created on Nov 16, 2019.
+ * Created on November 16, 2019.
  */
 public enum GlobalProperties implements Property
 {
+    TEST;
+
+    @Override
+    public String getName() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public String getDefaultValue() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public String getShortDescription() {
+        // TODO Auto-generated method stub
+        return null;
+    }
+
+    @Override
+    public String getLongDescription() {
+        // TODO Auto-generated method stub
+        return null;
+    }
 }
 

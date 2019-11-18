@@ -14,7 +14,7 @@ import java.util.prefs.Preferences;
  * 
  * @author Rambod Rahmani <rambodrahmani@autistici.org>
  * 
- * Created on Nov 5, 2019.
+ * Created on November 5, 2019.
  */
 public final class JVMUtil
 {

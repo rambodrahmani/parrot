@@ -9,7 +9,7 @@ package com.parrot.util;
  * 
  * @author Rambod Rahmani <rambodrahmani@autistici.org>
  * 
- * Created on Nov 15, 2019.
+ * Created on November 15, 2019.
  */
 public final class StringUtil
 {

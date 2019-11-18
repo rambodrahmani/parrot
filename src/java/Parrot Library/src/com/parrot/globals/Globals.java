@@ -5,7 +5,7 @@ package com.parrot.globals;
  * 
  * @author Rambod Rahmani <rambodrahmani@autistici.org>
  * 
- * Created on Nov 16, 2019.
+ * Created on November 16, 2019.
  */
 public final class Globals
 {
