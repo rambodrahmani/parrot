@@ -70,7 +70,7 @@ public final class SystemTrayUtil
             }
             else
             {
-                // otherwise, just show the title
+                // otherwise, just show the default title
                 trayIcon.setToolTip(TRAY_TITLE);
             }
         }
