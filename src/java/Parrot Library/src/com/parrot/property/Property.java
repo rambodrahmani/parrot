@@ -32,5 +32,10 @@ public interface Property
      * @return  the long description for the property.
      */
     public String getLongDescription();
+    
+    /**
+     * @return  true if the property is editable, false otherwise.
+     */
+    public boolean isEditable();
 }
 
